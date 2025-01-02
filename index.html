@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codek - Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #020024, #090979, #f0f8ff);
+            color: white;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('https://source.unsplash.com/1600x900/?space,galaxy') no-repeat center center/cover;
+            position: relative;
+        }
+
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+
+        header h1 {
+            position: relative;
+            z-index: 2;
+            font-size: 3rem;
+            text-shadow: 0 0 20px #f5a623, 0 0 30px #0078d7;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto 30px;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 3px solid #f5a623;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        .service {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 2px solid #f5a623;
+            border-radius: 12px;
+            width: 280px;
+            padding: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            text-align: left;
+        }
+
+        .service:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 30px rgba(245, 166, 35, 0.5);
+        }
+
+        .service i {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: #f5a623;
+        }
+
+        .service h3 {
+            margin-bottom: 15px;
+            color: #0078d7;
+        }
+
+        .service p {
+            color: #ddd;
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        footer {
+            background: #090979;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #f5a623;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.5rem;
+        }
+
+        footer a:hover {
+            color: #0078d7;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            color: #f5a623;
+            font-size: 1.2rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Codek Services - LABHAR MOHCINE</h1>
+</header>
+
+<div class="container">
+    <div class="logo">
+        <img src="c:\Users\pc\Downloads\WhatsApp Image 2024-12-20 à 14.40.13_c075756f.jpg" alt="Profile Picture">
+    </div>
+
+    <div class="services">
+        <div class="service">
+            <i class="fas fa-code"></i>
+            <h3>Web Development</h3>
+            <p>We specialize in creating dynamic, responsive websites that provide excellent user experiences. Our websites are optimized for performance, SEO, and modern web standards. Whether you're looking for a simple site or a complex web application, we have the expertise to bring your vision to life.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-database"></i>
+            <h3>Database Management</h3>
+            <p>We offer efficient and secure database management solutions. Whether you're working with MySQL, PostgreSQL, or NoSQL databases, we ensure that your data is well-structured, easily accessible, and safe from potential threats. We help optimize and maintain your databases for optimal performance.</p>
+        </div>
+        <div class="service">
+            <i class="fas fa-cogs"></i>
+            <h3>Custom Solutions</h3>
+            <p>Need something unique? We develop custom software solutions tailored to your specific business or personal needs. From automating workflows to building specialized tools, we provide the programming expertise to create the perfect solution for your requirements.</p>
+        </div>
+        <div class="service">
+            <i class="fab fa-python"></i>
+            <h3>Python Development</h3>
+            <p>Python is one of the most versatile and powerful programming languages. Whether you're building web applications, data analysis tools, or automation scripts, we offer Python development services tailored to your needs. Our team is skilled in frameworks like Django, Flask, and data science libraries like Pandas, NumPy, and Matplotlib.</p>
+        </div>
+        <!-- New Deployment Service -->
+        <div class="service">
+            <i class="fas fa-cloud-upload-alt"></i>
+            <h3>Website Deployment</h3>
+            <p>We provide end-to-end website deployment services, ensuring your website is live and accessible to the world. From setting up hosting environments (like Heroku, AWS, or Netlify) to configuring domains and managing server-side environments, we take care of the technical details, so you can focus on your content and business.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Contact Me:</p>
+    <a href="https://wa.me/message/UP3OQMYX5R2JJ1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://www.instagram.com/codek/profilecard/?igsh=MTd1dzZpZWZ6NGxjNA==" target="_blank"><i class="fab fa-instagram"></i></a>
+    <div class="contact-info">
+        <p>Email: <a href="mailto:codek.212@gmail.com">codek.212@gmail.com</a></p>
+    </div>
+</footer>
+
+</body>
+</html>
